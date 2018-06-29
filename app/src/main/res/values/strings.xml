@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <string name="top_spots">Top Spots</string>
+    <string name="hotels">Hotels</string>
+    <string name="things_to_do">Things to do</string>
+    <string name="language">Language</string>
+    <string name="gallery">Gallery</string>
+    <string name="about">About</string>
+
+
+    <string name="kanaka_durga_temple">Kanaka Durga Temple</string>
+    <string name="prakasam_barrage">Prakasam Barrage</string>
+    <string name="undavalli_caves">Undavalli Caves</string>
+    <string name="bhavani_island">Bhavani Island</string>
+    <string name="gandhi_hill">Gandhi Hill</string>
+    <string name="rajiv_gandhi_park">Rajiv Gandhi Park</string>
+    <string name="bapu_museum">Bapu Museum</string>
+
+    <string name="kanaka_durga_temple_heading">
+
+        Kanaka Durga Temple: A place where you will find yourself
+
+    </string>
+
+    <string name="kanaka_durga_temple_description">
+
+        Kanaka Durga Temple is a famous hindu Temple of Goddess Durga located in Vijayawada, Andhra Pradesh. The temple is located on the
+        Indrakeeladri hill, on the banks of Krishna River. Kaalika puraana, Durgaa sapthashati and other vedic literature have mentioned about Goddess
+        Kanaka Durga on the Indrakeelaadri and have described the deity as Swayambhu, (self-manifested) in Triteeya kalpa.\n\n
+
+        According to a legend, the now verdant Vijayawada was once a rocky region strewn with hills that obstructed the flow of River Krishna.
+        The land was thus rendered unfit for habitation or cultivation. Invocation to Lord Shiva for His intervention directed the hills to make
+        way for the river. And the river started flowing unimpeded with all its might, through the tunnels or "Bejjam" bored into the hills by
+        Lord Shiva. That is how the place got its name Bezawada. One of the many mythologies associated with this place is that Arjuna prayed to
+        Lord Shiva on top of Indrakeela hill to win His blessings and the city derived its name "Vijayawada" after this victory. Another popular
+        legend is about the triumph of goddess Kanakadurga over the demon King Mahishasura. It is said that the growing menace of demons became
+        unbearable for the natives. Sage Indrakila practiced severe penance, and when the goddess appeared the sage pleaded Her to reside on his
+        head and keep vigil on the wicked demons. As per his wishes of killing the demons, Goddess Durga made Indrakila Her permanent abode. Later,
+        She also slayed the demon king Mahishasura freeing the people of Vijayawada from evil. At the Kanakadurga temple, the enchanting 4-foot-high
+        (1.2 m) icon of the deity is bedecked in glittering ornaments and bright flowers. Her icon here depicts Her eight-armed form -each holding
+        a powerful weapon- in a standing posture over the demon Mahishashura and piercing him with Her trident. The goddess is the epitome of beauty.
+        Adjacent to the Kanakadurga temple is the shrine of Malleswara Swamy on the Indrakeeladri. By ascending the steps on the hill, one comes
+        across little images of different deities, prominent among them are Kanaka Durga, Malleswara and Krishna(River).\n\n
+
+        Kanaka Durga Temple is synonymous with Vijayawada. It is mentioned in the sacred texts.This is the place where Arjuna obtained the
+        Pasupatha astra after his great penance for Lord Shiva. The temple was constructed for Goddess Durga by Arjuna. It is connected by steps
+        and a ghats road. The temple occupies an important place in the scriptures as several of the Siva-leelas and Shakti-mahimas were enacted
+        on or around it, making the region a place of unequaled spiritual significance and attracting pilgrims since times immemorial.It is mentioned
+        in the Vedas that the deity in the Kanakadurga temple is regarded as \'Swayambhu\' or self-manifested, hence considered very powerful.
+        Inscriptions of different dynasties are found in the temple.
+
+    </string>
+
+
+    <string name="prakasam_barrage_heading">
+
+        Prakasam Barrage: A bridge that connects two districts
+
+    </string>
+
+
+    <string name="prakasam_barrage_description">
+
+        The structure of the Prakasam Barrage stretches 1223.5 m across the Krishna River connecting Krishna and Guntur districts. The barrage serves also as a road bridge and
+        spans over a lake. The three canals associated with the barrage run through the city of Vijayawada, crossing it and giving it a Venetian appearance.\n\n
+
+        The idea of constructing a dam across the river Krishna dates back to 1798. It began in the hands of captain Buckle and was revised in 1839 and 1841 by Captain Best and
+        Captain Lake.After the endorsement of Major Cotton, the board of Directors of the East India Company approved it on 5 January 1850. The dam was started in 1852 and completed
+        in 1855. It cost Rs 1.75 crore in those days and seems to have paid the then government a return of 18%. It used to irrigate 7 lakh acres.[2] Later, the State Government
+        constructed a bridge that was named after Tanguturi Prakasam, the first Chief Minister of Andhra (a state formed in 1953, which later became Andhra Pradesh in 1956 after the
+        merger of Telugu speaking districts of former Hyderabad State). Completed in 1957, it helps to irrigate over 1.2 million acres of land. This barrage also supplies water to
+        Buckingham canal which was initially constructed as an inland navigation canal but was later used as an irrigation water supply canal. One of the first major irrigation
+        projects of South India, the Prakasam Barrage in Vijayawada was completely successful in its mission.\n\n
+
+        Andhra Pradesh largely owes its rich agriculture to the Prakasam dam as the project facilitated the irrigation of large tracts of farmland. The dam provides views of the
+        lake.It has become a tourist attraction of Vijayawada. The barrage has 76 pillars in total; 70 pillars belong to Guntur district and 6 belong to Krishna district.
+
+    </string>
+
+
+    <string name="undavalli_caves_heading">
+
+        Undavalli Caves: An Indian Architectural marvel
+
+    </string>
+
+    <string name="undavalli_caves_description">
+
+        The Undavalli Caves, a monolithic example of Indian rock-cut architecture and one of the finest testimonials to ancient viswakarma sthapathis, are located in Undavalli
+        of Guntur district in the Indian state of Andhra Pradesh. The caves are located 6 km south west from Vijayawada, 22 km north east of Guntur City of Andhra Pradesh. It is
+        one of the centrally protected monuments of national importance.\n\n
+
+        These caves are said to be found in 7th century. They are associated with the Vishnukundi kings of 420-620 A.D.. These caves are dedicated to Anantha Padmanabha and
+        Lord Narashimha. Buddhist monks used these as Rest Houses. These caves were carved out of solid sandstone on a hillside in the 4th to 5th centuries A.D. There are
+        several caves and the best known largest one has four stories with a huge recreated statue of Vishnu in a reclining posture, sculpted from a single block of granite
+        inside the second floor. Undavalli caves are an example of how many Buddhist artifacts and stupas in Andhra were converted into Hindu temples and deities. It was
+        originally a Jain cave resembling the architecture of Udayagiri and Khandgiri.The main cave is one of the earliest examples of Gupta architecture, primarily primitive
+        rock-cut monastery cells carved into the sandstone hills. Initially the caves were shaped as a Jain abode and the first floor abode still retains the Jain style; the
+        vihara exhibits Jain monastics and includes tirthankara sculptures. This first level of the cave is a carved vihara and includes Buddhist art work. The site served as
+        the Bhikkhu monastic complex during ancient period. The walls of the caves display sculptures carved by skilled craftsmen. The caves are surrounded by the green
+        countryside. From the high hill above the cave overlooking the Krishna River many fine specimens of rock cut architecture can be seen.\n\n
+
+        It is an Impressive Four storey rock cut temple with East facing facade of 29m long, 16m wide. There are variation in depth of each floor. Ground floor is an unfinished
+        low pillared hall with 8 pillars and 7 door openings on façade. First storey accommodates triple shrine at back, each with pillared hall in front, originally dedicated
+        to the Trinity (Siva, Vishnu and Brahma).Sculptures on the walls represents Vaishnava deities. Second storey has a pillared rectangular shrine of Lord Vishnu on a Serpent.
+        Sculptures of Shiva and Vaishnava and a few like the Vaishnava Alwars are sculptured later on. Top floor was unfinished with a Triple Shrine. Some of the sculptural
+        specimens are attributed to Chalukyan Period. It has 5 meter long statue of Lord Buddha in reclining position.
+
+    </string>
+
+
+    <string name="bhavani_island_heading">
+
+        Bhavani Island: A place to spend time on Weekends
+
+    </string>
+
+    <string name="bhavani_island_description">
+
+        Bhavani Island situated in the midst of the Krishna River, at Vijayawada. It is located at the upstream of Prakasam Barrage and is considered as one of the largest river
+        islands in India, with an area of 133 acres (54 ha). The Kanaka Durga Temple is the abode of Goddess Durga. She is also known with another name as Bhavani and hence, the
+        island is named Bhavani Island. The island is located in close proximity to the temple.
+
+    </string>
+
+    <string name="gandhi_hill_heading">
+
+        Gandhi Hill: A monument of Indian Independence Struggle
+
+    </string>
+
+    <string name="gandhi_hill_description">
+
+        The Gandhi Hill (elevation 500 ft (150 m)) is a hill in Vijayawada, situated behind the Vijayawada railway station in the Tarapet area. A Gandhi Memorial, built on this
+        hill, is the first in the country to have seven stupas. The hill is also popularly known by the name of Gandhi.[1][2] The hill was formerly known as ORR hill.\n\n
+
+        Gandhi Hill is considered as a monument of Indian Independence struggle and pays homage to Father of the nation, Mahatma Gandhi. The Gandhi Hill Memorial has a stone slab
+        with inscriptions of Gandhi quotations. The facility has a library and a planetarium, and offers a show on the father of the nation. On 6 October 1968, a stupa 52 ft (16 m)
+        tall was unveiled by former President of India, Dr. Zakir Hussain. There are also seven tall pillars, each 150 m (490 ft) tall.
+
+    </string>
+
+
+    <string name="rajiv_gandhi_park_heading">
+
+        Rajiv Gandhi Park: A park that leaves an impression on you
+
+    </string>
+
+    <string name="rajiv_gandhi_park_description">
+
+        Large, historic park next to a river with children’s attractions and colorful sculptures.
+
+    </string>
+
+
+    <string name="bapu_museum_heading">
+
+        Bapu Museum: A museum worth visiting
+
+    </string>
+
+    <string name="bapu_museum_description">
+
+        The Bapu Museum (formerly: Victoria Jubilee Museum) is an archaeological museum, located at M. G. Road of Vijayawada. It was renamed in the memory of the renowned
+        film director, illustrator, cartoonist and author Bapu (film director).The museum is maintained by the Archaeological department and has large collection of sculptures,
+        paintings and artifacts of Buddhist and Hindu relics, with some of them as old as 2nd and 3rd Centuries. The structure of building is an Indo-European style of
+        architectural and is more than a hundred years old structure.\n\n
+
+        The museum was created as part of the celebrations of the Golden Jubilee of Queen Victoria in 1887. The foundation stone was laid by Robert Sewell, District Collector
+        of Krishna district, on 27 June 1887. Sri Pingali Venkayya presented a tri-colour flag to Mahatma Gandhi at this location in 1921. The building initially housed
+        industrial exhibitions. It was converted to an archaeological museum under the auspices of the Department of Archaeology and Museums, Government of Andhra Pradesh,
+        in 1962.\n\n
+
+        The museum has historical galleries, stone cut writings, coins, swords, body armour, shields, arms, ornamentation, etc., used by kings. A standing Buddha of white
+        limestone of Alluru (3rd–4th century),Lord Shiva and Goddess Durga as slaying the buffalo demon, Mahishasura (2nd century) can also be found at the museum.
+
+    </string>
+
+
+
+    <string name="minerva_grand">Minerva Grand</string>
+    <string name="dv_manor">DV Manor</string>
+    <string name="gateway">The Gateway</string>
+    <string name="fortune_murali">Fortune Murali Park</string>
+    <string name="kay">The Kay Hotel</string>
+    <string name="innotel">Innotel</string>
+    <string name="marg_krishnaaya">Marg Krishnaaya</string>
+    <string name="ilapuram">Ilapuram</string>
+    <string name="continental_park">Continental Park</string>
+    <string name="southern_grand">Southern Grand</string>
+
+    <string name="minerva_grand_number">08666678888</string>
+    <string name="dv_manor_number">08666634455</string>
+    <string name="gateway_number">08666644444</string>
+    <string name="fortune_murali_number">08663988008</string>
+    <string name="kay_number">08666635555</string>
+    <string name="innotel_number">07036623456</string>
+    <string name="marg_krishnaaya_number">08666622222</string>
+    <string name="ilapuram_number">08662571282</string>
+    <string name="continental_park_number">09030797779</string>
+    <string name="southern_grand_number">08666677777</string>
+
+    <string name="minerva_grand_location">16.502540, 80.643295</string>
+    <string name="dv_manor_location">16.500356, 80.648170</string>
+    <string name="gateway_location">16.502612, 80.640697</string>
+    <string name="fortune_murali_location">16.501483, 80.645603</string>
+    <string name="kay_location">16.524332, 80.676161</string>
+    <string name="innotel_location">16.524712, 80.677442</string>
+    <string name="marg_krishnaaya_location">16.497644, 80.656543</string>
+    <string name="ilapuram_location">16.515908, 80.625786</string>
+    <string name="continental_park_location">16.512379, 80.629873</string>
+    <string name="southern_grand_location">16.517245, 80.624024</string>
+
+
+
+
+
+
+
+</resources>
