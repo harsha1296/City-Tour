@@ -24,6 +24,7 @@ public class TopSpots extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_top_spots);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
         final ArrayList<TopSpotsListItem> listItems=new ArrayList<TopSpotsListItem>();
@@ -58,6 +59,7 @@ public class TopSpots extends AppCompatActivity {
                 i.putExtra("temp1",topSpotsListItem.getHeading());
                 i.putExtra("temp2",topSpotsListItem.getImageResourceId());
                 i.putExtra("temp3",topSpotsListItem.getDescription());
+                i.putExtra("activity_name",topSpotsListItem.getPlace());
 
                 startActivity(i);
 

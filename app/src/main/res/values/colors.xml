@@ -11,8 +11,14 @@
     <color name="hotels">#33691E</color>
     <color name="things_to_do">#FF3D00</color>
     <color name="language">#3E2723</color>
-    <color name="gallery">#FFFF00</color>
-    <color name="about">#64DD17</color>
+
+
+    <color name="language_numbers">#FD8E09</color>
+    <color name="language_questions">#379237</color>
+    <color name="language_phrases">#8800A0</color>
+    <color name="language_misc">#16AFCA</color>
+
+    <color name="mycolor">#4A312A</color>
 
 
 </resources>

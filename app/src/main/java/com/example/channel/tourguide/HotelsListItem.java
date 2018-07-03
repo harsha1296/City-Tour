@@ -11,10 +11,12 @@ public class HotelsListItem
     private String number;
     private String location;
     private static final String TAG="geo:0,0?q=";
+    private int hotel_star;
 
     HotelsListItem(String hotelName,String star,int imageResourceId,String number,String location)
     {
         this.hotelName=hotelName;
+        this.hotel_star=Integer.parseInt(star);
         this.star=star+"-star";
         this.imageResourceId=imageResourceId;
         this.number="tel:"+number;
@@ -39,5 +41,10 @@ public class HotelsListItem
 
     public String getLocation() {
         return location;
+    }
+
+    public int getHotelStar()
+    {
+        return hotel_star;
     }
 }

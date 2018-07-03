@@ -5,8 +5,6 @@
     <string name="hotels">Hotels</string>
     <string name="things_to_do">Things to do</string>
     <string name="language">Language</string>
-    <string name="gallery">Gallery</string>
-    <string name="about">About</string>
 
 
     <string name="kanaka_durga_temple">Kanaka Durga Temple</string>
@@ -179,7 +177,6 @@
     </string>
 
 
-
     <string name="minerva_grand">Minerva Grand</string>
     <string name="dv_manor">DV Manor</string>
     <string name="gateway">The Gateway</string>
@@ -190,6 +187,18 @@
     <string name="ilapuram">Ilapuram</string>
     <string name="continental_park">Continental Park</string>
     <string name="southern_grand">Southern Grand</string>
+    <string name="alankar_inn">Alankar Inn</string>
+    <string name="manorama">Manorama</string>
+    <string name="swarna_palace">Swarna Palace</string>
+    <string name="krishna_residency">Krishna Residency</string>
+    <string name="raj_towers">Raj Towers</string>
+    <string name="kosala">Kosala</string>
+    <string name="suncity">Suncity</string>
+    <string name="gsquare">G Square</string>
+    <string name="vasanth_marg">Vasanth Marg</string>
+    <string name="golden_palace">Golden Palace</string>
+
+
 
     <string name="minerva_grand_number">08666678888</string>
     <string name="dv_manor_number">08666634455</string>
@@ -201,22 +210,56 @@
     <string name="ilapuram_number">08662571282</string>
     <string name="continental_park_number">09030797779</string>
     <string name="southern_grand_number">08666677777</string>
+    <string name="alankar_inn_number">0866 257 1666</string>
+    <string name="manorama_number">0866 257 2626</string>
+    <string name="swarna_palace_number">0866 257 7222</string>
+    <string name="krishna_residency_number">0866 257 5301</string>
+    <string name="raj_towers_number">0866 257 1311</string>
+    <string name="kosala_number">088855 32655</string>
+    <string name="suncity_number">0866 245 5551</string>
+    <string name="gsquare_number">080966 68883</string>
+    <string name="vasanth_marg_number">0866 247 8999</string>
+    <string name="golden_palace_number">0866 666 6601</string>
 
-    <string name="minerva_grand_location">16.502540, 80.643295</string>
-    <string name="dv_manor_location">16.500356, 80.648170</string>
-    <string name="gateway_location">16.502612, 80.640697</string>
-    <string name="fortune_murali_location">16.501483, 80.645603</string>
-    <string name="kay_location">16.524332, 80.676161</string>
-    <string name="innotel_location">16.524712, 80.677442</string>
-    <string name="marg_krishnaaya_location">16.497644, 80.656543</string>
-    <string name="ilapuram_location">16.515908, 80.625786</string>
-    <string name="continental_park_location">16.512379, 80.629873</string>
-    <string name="southern_grand_location">16.517245, 80.624024</string>
+    <string name="minerva_grand_location">16.502447, 80.643457</string>
+    <string name="dv_manor_location">16.500323, 80.648168</string>
+    <string name="gateway_location">16.502270, 80.640707</string>
+    <string name="fortune_murali_location">16.501186, 80.645624</string>
+    <string name="kay_location">16.524006, 80.676215</string>
+    <string name="innotel_location">16.524417, 80.677485</string>
+    <string name="marg_krishnaaya_location">16.497296, 80.656607</string>
+    <string name="ilapuram_location">16.515562, 80.625827</string>
+    <string name="continental_park_location">16.512031, 80.629894</string>
+    <string name="southern_grand_location">16.516938, 80.624002</string>
+    <string name="alankar_inn_location">16.515902, 80.626838</string>
+    <string name="manorama_location">16.511266, 80.620248</string>
+    <string name="swarna_palace_location">16.512903, 80.623112</string>
+    <string name="krishna_residency_location">16.511111, 80.625700</string>
+    <string name="raj_towers_location">16.513630, 80.628189</string>
+    <string name="kosala_location">16.513802, 80.626699</string>
+    <string name="suncity_location">16.514614, 80.668988</string>
+    <string name="gsquare_location">16.511913, 80.673693</string>
+    <string name="vasanth_marg_location">16.501062, 80.647429</string>
+    <string name="golden_palace_location">16.512279, 80.621353</string>
 
 
+    <string-array name="hotels_category">
 
+        <item>All</item>
+        <item>Popular</item>
+        <item>Near Airport</item>
+        <item>Near Station</item>
+        <item>Near Bus Stand</item>
+        <item>Near Shopping</item>
+        <item>4-star</item>
+        <item>3-star</item>
+        <item>2-star</item>
+        <item>1-star</item>
 
+    </string-array>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

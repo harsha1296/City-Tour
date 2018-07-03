@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-
+import com.example.channel.tourguide.HotelsActivity;
 /**
  * Created by Channel on 29-06-2018.
  */
@@ -75,7 +75,22 @@ public class HotelsAdapter extends ArrayAdapter<HotelsListItem>
             }
         });
 
+        /*int category=HotelsActivity.star;
+        if(category>0)
+        {
+            int hotel_star=hotelsListItem.getHotelStar();
+            if(hotel_star!=category)
+                return null;
+            else
+                return listItemView;
+        }
+        else
+        {
+            if (!HotelsActivity.display[position])
+                return null;
+            else
+                return listItemView;
+        }*/
         return listItemView;
-
     }
 }

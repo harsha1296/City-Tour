@@ -1,5 +1,6 @@
 package com.example.channel.tourguide;
 
+import android.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -12,6 +13,8 @@ public class SneakPeek extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sneak_peek);
 
+        android.support.v7.app.ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
 
         Bundle extras=getIntent().getExtras();
         if(extras!=null)
@@ -19,6 +22,9 @@ public class SneakPeek extends AppCompatActivity {
             String temp1=extras.getString("temp1");
             int temp2=extras.getInt("temp2");
             String temp3=extras.getString("temp3");
+            String activity_name=extras.getString("activity_name");
+
+            ab.setTitle(activity_name);
 
             TextView heading=(TextView)findViewById(R.id.heading);
             heading.setText(temp1);
