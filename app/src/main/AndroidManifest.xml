@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.channel.tourguide">
+    package="sri.harsha.ramini.tourguide">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".SplashActivity"
+        <activity
+            android:name="sri.harsha.ramini.tourguide.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,44 +21,61 @@
         </activity>
 
         <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait">
-
+            android:name="sri.harsha.ramini.tourguide.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="City Tour">
         </activity>
+
         <activity
-            android:name=".TopSpots"
+            android:name="sri.harsha.ramini.tourguide.TopSpots"
             android:label="Top Spots"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="sri.harsha.ramini.tourguide.MainActivity"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="sri.harsha.ramini.tourguide.MainActivity" />
         </activity>
         <activity
-            android:name=".SneakPeek"
-            android:parentActivityName=".TopSpots"
+            android:name="sri.harsha.ramini.tourguide.SneakPeek"
+            android:parentActivityName="sri.harsha.ramini.tourguide.TopSpots"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="sri.harsha.ramini.tourguide.MainActivity" />
         </activity>
-        <activity android:name=".examp" />
+        <activity android:name="sri.harsha.ramini.tourguide.examp" />
         <activity
-            android:name=".HotelsActivity"
+            android:name="sri.harsha.ramini.tourguide.HotelsActivity"
             android:label="Hotels"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="sri.harsha.ramini.tourguide.MainActivity"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="sri.harsha.ramini.tourguide.MainActivity" />
         </activity>
-        <activity android:name=".About" />
         <activity
-            android:name=".LanguageActivity"
+            android:name="sri.harsha.ramini.tourguide.About"
+            android:screenOrientation="portrait"
+            android:label="About"
+            android:parentActivityName="sri.harsha.ramini.tourguide.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="sri.harsha.ramini.tourguide.MainActivity" />
+        </activity>
+        <activity
+            android:name="sri.harsha.ramini.tourguide.LanguageActivity"
             android:label="Language"
-            android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait" />
+            android:parentActivityName="sri.harsha.ramini.tourguide.MainActivity"
+            android:screenOrientation="portrait"
+            />
 
+        <activity android:name="sri.harsha.ramini.tourguide.ThingsToDo"
+            android:screenOrientation="portrait"
+            android:label="Things To Do"
+            android:parentActivityName="sri.harsha.ramini.tourguide.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value="sri.harsha.ramini.tourguide.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

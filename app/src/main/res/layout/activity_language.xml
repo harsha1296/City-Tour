@@ -10,7 +10,9 @@
         android:id="@+id/slider"
         app:tabMode="scrollable"
         android:background="#4A312A"
-        app:tabTextColor="#FFFFFF">
+        app:tabTextColor="#FFFFFF"
+        app:tabIndicatorColor="#FFFFFF"
+        app:tabSelectedTextColor="#A8A19E">
 
 
 

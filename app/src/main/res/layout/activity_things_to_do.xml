@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/malls"
+            style="@style/ThingsToDoTextView"
+            tools:text="@string/malls">
+        </TextView>
+
+        <TextView
+            android:id="@+id/cinemas"
+            style="@style/ThingsToDoTextView"
+            tools:text="@string/cinemas">
+        </TextView>
+
+        <TextView
+            android:id="@+id/restaurants"
+            style="@style/ThingsToDoTextView"
+            tools:text="@string/restaurants">
+        </TextView>
+
+        <TextView
+            android:id="@+id/icecreams"
+            style="@style/ThingsToDoTextView"
+            tools:text="@string/icecreams">
+        </TextView>
+
+        <TextView
+            android:id="@+id/sweets"
+            style="@style/ThingsToDoTextView"
+            tools:text="@string/sweets">
+        </TextView>
+
+        <TextView
+            android:id="@+id/others"
+            style="@style/ThingsToDoTextView"
+            tools:text="@string/others">
+        </TextView>
+
+        <TextView
+            android:id="@+id/parks"
+            style="@style/ThingsToDoTextView"
+            tools:text="@string/parks">
+        </TextView>
+
+        <TextView
+            android:id="@+id/shopping"
+            style="@style/ThingsToDoTextView"
+            android:layout_marginBottom="8dp"
+            tools:text="@string/shopping">
+        </TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

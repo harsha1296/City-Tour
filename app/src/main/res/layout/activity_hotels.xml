@@ -2,24 +2,94 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#E0E0E0">
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="150dp"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_gravity="end"
-        android:entries="@array/hotels_category"/>
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/filter_one"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/filter"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentLeft="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/filter_one"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/layout_one"
+            android:background="#BDBDBD">
+        <Spinner
+            android:id="@+id/spinner_one"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:entries="@array/star_category"
+            android:dropDownWidth="150dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/layout_two"
+            android:background="#BDBDBD">
+            <Spinner
+                android:id="@+id/spinner_two"
+                android:layout_width="120dp"
+                android:layout_height="25dp"
+                android:layout_gravity="end"
+                android:entries="@array/hotels_category"
+                android:dropDownWidth="150dp"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/filter_two"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/filter"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/layout_two"
+            android:layout_marginRight="4dp"/>
+
+    </RelativeLayout>
 
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
-        android:dividerHeight="8dp"/>
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:dividerHeight="8dp"
+        android:divider="#E0E0E0"
+        android:scrollbars="none"
+        />
+
+
+    <TextView
+        android:id="@+id/no_results_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="No results found !!!"
+        android:textSize="26sp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
 
 </LinearLayout>

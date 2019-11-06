@@ -1,7 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="88dp"
+    android:layout_height="wrap_content"
+    android:minHeight="88dp"
     android:orientation="horizontal"
     android:id="@+id/linearLayout">
 
@@ -17,7 +18,7 @@
             android:id="@+id/english"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="What is your name?"
+            tools:text="What is your name?"
             android:layout_weight="1"
             android:textSize="18sp"
             android:textColor="#FFFFFF"
@@ -30,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="Nee peerenti"
+            tools:text="Nee peerenti"
             android:textSize="18sp"
             android:gravity="start"
             android:textColor="#FFFFFF"
@@ -41,11 +42,11 @@
     <ImageView
         android:id="@+id/fast"
         android:layout_width="0dp"
-        android:layout_height="65dp"
+        android:layout_height="60dp"
         android:layout_weight="1"
         android:src="@drawable/rabbit"
         android:layout_marginRight="12dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="13dp"
         />
 
 
@@ -53,11 +54,11 @@
     <ImageView
         android:id="@+id/slow"
         android:layout_width="0dp"
-        android:layout_height="65dp"
+        android:layout_height="60dp"
         android:layout_weight="1"
         android:src="@drawable/tortoise"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="19dp"
 
         />
 

@@ -13,29 +13,25 @@
             android:id="@+id/top_spots"
             style="@style/CategoryStyle"
             android:text="@string/top_spots"
-            android:background="@color/top_spots"
-            android:layout_marginRight="8dp"/>
+            android:background="@color/top_spots"/>
 
         <TextView
             android:id="@+id/hotels"
             style="@style/CategoryStyle"
             android:text="@string/hotels"
-            android:background="@color/hotels"
-            android:layout_marginLeft="8dp"/>
+            android:background="@color/hotels"/>
 
         <TextView
             android:id="@+id/things_to_do"
             style="@style/CategoryStyle"
             android:text="@string/things_to_do"
-            android:background="@color/things_to_do"
-            android:layout_marginRight="8dp"/>
+            android:background="@color/things_to_do" />
 
         <TextView
             android:id="@+id/language"
             style="@style/CategoryStyle"
             android:text="@string/language"
-            android:background="@color/language"
-            android:layout_marginLeft="8dp"/>
+            android:background="@color/language"/>
 
     </LinearLayout>
 

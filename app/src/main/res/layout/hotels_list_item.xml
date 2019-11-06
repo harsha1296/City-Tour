@@ -42,8 +42,6 @@
             android:gravity="end"
             android:paddingRight="8dp"/>
 
-
-
     </LinearLayout>
 
     <LinearLayout
@@ -57,7 +55,7 @@
             android:layout_height="40dp"
             android:text="Call"
             android:layout_weight="1"
-            android:background="#0288D1"
+            android:background="@drawable/rounded_corner_hotels_button"
             android:layout_marginRight="4dp"
         />
         <Button
@@ -66,7 +64,7 @@
             android:layout_height="40dp"
             android:text="Location"
             android:layout_weight="1"
-            android:background="#0288D1"
+            android:background="@drawable/rounded_corner_hotels_button"
             android:layout_marginLeft="4dp"
             />
 

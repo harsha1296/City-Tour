@@ -1,0 +1,64 @@
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\35b45b995547b00f25fcac03c1acb6b0\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\dc6d1de5379ea80f55c517c869bc9c4d\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\09c477de91edcd07522366cadef47780\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\dfea78bc21fd260ce3847783965920ef\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\628432147ebc02c487d93f93a9ee8888\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\7daf385b3643009e6fe5da55ba788ef1\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\618dc3b29f7944ed14b98329cc9e8900\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\547936cc2202978a25ec321e77bae3d2\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5c2d5274eb461210a4114658bd64023f\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\aac6267f1d42b44d7bedcd25cc706781\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\d125e01a9756683851d81c33bd001257\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\bd5206dd0be787362cb7a68755f64dc0\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\319f073f4c2601da395fc818c7686de7\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2b6178dac84bcfa0068a2252487ddc6d\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.1\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.1.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.2\bfc967828daffc35ba01c9ee204d98b664930a0f\constraint-layout-solver-1.1.2.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1260d6f00d9f5af419f0eaa67281de39\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\efedb6d4437d2581317032ecb201479b\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\3ec20c4741a2acce077e66ff90b67225\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\50ce3a61b1735644f5db8c02481b1b2b\jars\classes.jar'(**.class)
+-injars 'C:\Users\Channel\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar'(**.class)
+-injars 'C:\Users\Channel\AndroidStudioProjects\TourGuide\app\build\intermediates\classes\debug'(**.class)
+-outjars 'C:\Users\Channel\AndroidStudioProjects\TourGuide\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\Channel\AppData\Local\Android\Sdk\build-tools\26.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'C:\Users\Channel\AndroidStudioProjects\TourGuide\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+# Referenced at C:\Users\Channel\AndroidStudioProjects\TourGuide\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11
+-keep class android.support.multidex.MultiDexApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}
